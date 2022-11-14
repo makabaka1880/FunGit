@@ -123,6 +123,7 @@ struct WorkSpaceView: View {
                         Button("Add") {
                             let panel = NSOpenPanel()
                             panel.allowsMultipleSelection = false
+                            panel.canChooseDirectories = true
                             if panel.runModal() == .OK {
                                 let url = panel.url!
                                 messageCache = url.relativePath
@@ -140,6 +141,7 @@ struct WorkSpaceView: View {
                         Button("Remove") {
                             let panel = NSOpenPanel()
                             panel.allowsMultipleSelection = false
+                            panel.canChooseDirectories = true
                             if panel.runModal() == .OK {
                                 let url = panel.url!
                                 messageCache = url.relativePath

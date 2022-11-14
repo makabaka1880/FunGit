@@ -16,6 +16,13 @@
 		77902B432921241800D0391A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77902B422921241800D0391A /* Assets.xcassets */; };
 		77902B462921241800D0391A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77902B452921241800D0391A /* Preview Assets.xcassets */; };
 		77902B4E2921241E00D0391A /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77902B4D2921241E00D0391A /* Actions.swift */; };
+		77C1D6AF29229CDE009A8AFF /* GitLogInterpreter.docc in Sources */ = {isa = PBXBuildFile; fileRef = 77C1D6AE29229CDE009A8AFF /* GitLogInterpreter.docc */; };
+		77C1D6B529229CDE009A8AFF /* GitLogInterpreter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1D6AB29229CDE009A8AFF /* GitLogInterpreter.framework */; };
+		77C1D6BC29229CDE009A8AFF /* GitLogInterpreterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1D6BB29229CDE009A8AFF /* GitLogInterpreterTests.swift */; };
+		77C1D6BD29229CDE009A8AFF /* GitLogInterpreter.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C1D6AD29229CDE009A8AFF /* GitLogInterpreter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77C1D6C029229CDE009A8AFF /* GitLogInterpreter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1D6AB29229CDE009A8AFF /* GitLogInterpreter.framework */; };
+		77C1D6C129229CDE009A8AFF /* GitLogInterpreter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1D6AB29229CDE009A8AFF /* GitLogInterpreter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		77C1D6CA29229CEF009A8AFF /* LogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1D6C929229CEF009A8AFF /* LogEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +33,42 @@
 			remoteGlobalIDString = 77902B3A2921241800D0391A;
 			remoteInfo = FunGit;
 		};
+		77C1D6B629229CDE009A8AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77902B332921241700D0391A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77C1D6AA29229CDE009A8AFF;
+			remoteInfo = GitLogInterpreter;
+		};
+		77C1D6B829229CDE009A8AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77902B332921241700D0391A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77902B3A2921241800D0391A;
+			remoteInfo = FunGit;
+		};
+		77C1D6BE29229CDE009A8AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77902B332921241700D0391A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77C1D6AA29229CDE009A8AFF;
+			remoteInfo = GitLogInterpreter;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77C1D6C229229CDE009A8AFF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				77C1D6C129229CDE009A8AFF /* GitLogInterpreter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7761015F2922904D00F013F2 /* LogFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFileView.swift; sourceTree = "<group>"; };
@@ -41,6 +83,12 @@
 		77902B452921241800D0391A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77902B472921241800D0391A /* FunGit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FunGit.entitlements; sourceTree = "<group>"; };
 		77902B4D2921241E00D0391A /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		77C1D6AB29229CDE009A8AFF /* GitLogInterpreter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GitLogInterpreter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C1D6AD29229CDE009A8AFF /* GitLogInterpreter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitLogInterpreter.h; sourceTree = "<group>"; };
+		77C1D6AE29229CDE009A8AFF /* GitLogInterpreter.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GitLogInterpreter.docc; sourceTree = "<group>"; };
+		77C1D6B429229CDE009A8AFF /* GitLogInterpreterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitLogInterpreterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C1D6BB29229CDE009A8AFF /* GitLogInterpreterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitLogInterpreterTests.swift; sourceTree = "<group>"; };
+		77C1D6C929229CEF009A8AFF /* LogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +103,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C1D6C029229CDE009A8AFF /* GitLogInterpreter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C1D6A829229CDE009A8AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C1D6B129229CDE009A8AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C1D6B529229CDE009A8AFF /* GitLogInterpreter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +138,8 @@
 			children = (
 				77902B3D2921241800D0391A /* FunGit */,
 				77634A772921791700A1898B /* FunGitTests */,
+				77C1D6AC29229CDE009A8AFF /* GitLogInterpreter */,
+				77C1D6BA29229CDE009A8AFF /* GitLogInterpreterTests */,
 				77902B3C2921241800D0391A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +149,8 @@
 			children = (
 				77902B3B2921241800D0391A /* FunGit.app */,
 				77634A762921791700A1898B /* FunGitTests.xctest */,
+				77C1D6AB29229CDE009A8AFF /* GitLogInterpreter.framework */,
+				77C1D6B429229CDE009A8AFF /* GitLogInterpreterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +179,36 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		77C1D6AC29229CDE009A8AFF /* GitLogInterpreter */ = {
+			isa = PBXGroup;
+			children = (
+				77C1D6AD29229CDE009A8AFF /* GitLogInterpreter.h */,
+				77C1D6C929229CEF009A8AFF /* LogEntry.swift */,
+				77C1D6AE29229CDE009A8AFF /* GitLogInterpreter.docc */,
+			);
+			path = GitLogInterpreter;
+			sourceTree = "<group>";
+		};
+		77C1D6BA29229CDE009A8AFF /* GitLogInterpreterTests */ = {
+			isa = PBXGroup;
+			children = (
+				77C1D6BB29229CDE009A8AFF /* GitLogInterpreterTests.swift */,
+			);
+			path = GitLogInterpreterTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		77C1D6A629229CDE009A8AFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C1D6BD29229CDE009A8AFF /* GitLogInterpreter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		77634A752921791700A1898B /* FunGitTests */ = {
@@ -139,15 +236,54 @@
 				77902B372921241800D0391A /* Sources */,
 				77902B382921241800D0391A /* Frameworks */,
 				77902B392921241800D0391A /* Resources */,
+				77C1D6C229229CDE009A8AFF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				77C1D6BF29229CDE009A8AFF /* PBXTargetDependency */,
 			);
 			name = FunGit;
 			productName = FunGit;
 			productReference = 77902B3B2921241800D0391A /* FunGit.app */;
 			productType = "com.apple.product-type.application";
+		};
+		77C1D6AA29229CDE009A8AFF /* GitLogInterpreter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C1D6C729229CDE009A8AFF /* Build configuration list for PBXNativeTarget "GitLogInterpreter" */;
+			buildPhases = (
+				77C1D6A629229CDE009A8AFF /* Headers */,
+				77C1D6A729229CDE009A8AFF /* Sources */,
+				77C1D6A829229CDE009A8AFF /* Frameworks */,
+				77C1D6A929229CDE009A8AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitLogInterpreter;
+			productName = GitLogInterpreter;
+			productReference = 77C1D6AB29229CDE009A8AFF /* GitLogInterpreter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77C1D6B329229CDE009A8AFF /* GitLogInterpreterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C1D6C829229CDE009A8AFF /* Build configuration list for PBXNativeTarget "GitLogInterpreterTests" */;
+			buildPhases = (
+				77C1D6B029229CDE009A8AFF /* Sources */,
+				77C1D6B129229CDE009A8AFF /* Frameworks */,
+				77C1D6B229229CDE009A8AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77C1D6B729229CDE009A8AFF /* PBXTargetDependency */,
+				77C1D6B929229CDE009A8AFF /* PBXTargetDependency */,
+			);
+			name = GitLogInterpreterTests;
+			productName = GitLogInterpreterTests;
+			productReference = 77C1D6B429229CDE009A8AFF /* GitLogInterpreterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -166,6 +302,13 @@
 					77902B3A2921241800D0391A = {
 						CreatedOnToolsVersion = 14.1;
 					};
+					77C1D6AA29229CDE009A8AFF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					77C1D6B329229CDE009A8AFF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 77902B3A2921241800D0391A;
+					};
 				};
 			};
 			buildConfigurationList = 77902B362921241700D0391A /* Build configuration list for PBXProject "FunGit" */;
@@ -183,6 +326,8 @@
 			targets = (
 				77902B3A2921241800D0391A /* FunGit */,
 				77634A752921791700A1898B /* FunGitTests */,
+				77C1D6AA29229CDE009A8AFF /* GitLogInterpreter */,
+				77C1D6B329229CDE009A8AFF /* GitLogInterpreterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -201,6 +346,20 @@
 			files = (
 				77902B462921241800D0391A /* Preview Assets.xcassets in Resources */,
 				77902B432921241800D0391A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C1D6A929229CDE009A8AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C1D6B229229CDE009A8AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +387,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77C1D6A729229CDE009A8AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C1D6AF29229CDE009A8AFF /* GitLogInterpreter.docc in Sources */,
+				77C1D6CA29229CEF009A8AFF /* LogEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C1D6B029229CDE009A8AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C1D6BC29229CDE009A8AFF /* GitLogInterpreterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -235,6 +411,21 @@
 			isa = PBXTargetDependency;
 			target = 77902B3A2921241800D0391A /* FunGit */;
 			targetProxy = 77634A7A2921791700A1898B /* PBXContainerItemProxy */;
+		};
+		77C1D6B729229CDE009A8AFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77C1D6AA29229CDE009A8AFF /* GitLogInterpreter */;
+			targetProxy = 77C1D6B629229CDE009A8AFF /* PBXContainerItemProxy */;
+		};
+		77C1D6B929229CDE009A8AFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77902B3A2921241800D0391A /* FunGit */;
+			targetProxy = 77C1D6B829229CDE009A8AFF /* PBXContainerItemProxy */;
+		};
+		77C1D6BF29229CDE009A8AFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77C1D6AA29229CDE009A8AFF /* GitLogInterpreter */;
+			targetProxy = 77C1D6BE29229CDE009A8AFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,6 +590,7 @@
 		77902B4B2921241800D0391A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FunGit/FunGit.entitlements;
@@ -426,6 +618,7 @@
 		77902B4C2921241800D0391A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FunGit/FunGit.entitlements;
@@ -447,6 +640,100 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		77C1D6C329229CDE009A8AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W4TK6FX4PU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makabaka.GitLogInterpreter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77C1D6C429229CDE009A8AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W4TK6FX4PU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makabaka.GitLogInterpreter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77C1D6C529229CDE009A8AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4TK6FX4PU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makabaka.GitLogInterpreterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunGit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FunGit";
+			};
+			name = Debug;
+		};
+		77C1D6C629229CDE009A8AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4TK6FX4PU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makabaka.GitLogInterpreterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunGit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FunGit";
 			};
 			name = Release;
 		};
@@ -476,6 +763,24 @@
 			buildConfigurations = (
 				77902B4B2921241800D0391A /* Debug */,
 				77902B4C2921241800D0391A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C1D6C729229CDE009A8AFF /* Build configuration list for PBXNativeTarget "GitLogInterpreter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C1D6C329229CDE009A8AFF /* Debug */,
+				77C1D6C429229CDE009A8AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C1D6C829229CDE009A8AFF /* Build configuration list for PBXNativeTarget "GitLogInterpreterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C1D6C529229CDE009A8AFF /* Debug */,
+				77C1D6C629229CDE009A8AFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
