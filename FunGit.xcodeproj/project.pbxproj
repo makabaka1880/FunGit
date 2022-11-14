@@ -7,22 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		776101602922904D00F013F2 /* LogFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7761015F2922904D00F013F2 /* LogFileView.swift */; };
+		77634A6F29213C5C00A1898B /* WorkSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77634A6E29213C5C00A1898B /* WorkSpace.swift */; };
+		77634A7129213CAC00A1898B /* WorkSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77634A7029213CAC00A1898B /* WorkSpaceView.swift */; };
+		77634A792921791700A1898B /* FunGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77634A782921791700A1898B /* FunGitTests.swift */; };
 		77902B3F2921241800D0391A /* FunGitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77902B3E2921241800D0391A /* FunGitApp.swift */; };
 		77902B412921241800D0391A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77902B402921241800D0391A /* ContentView.swift */; };
 		77902B432921241800D0391A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77902B422921241800D0391A /* Assets.xcassets */; };
 		77902B462921241800D0391A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77902B452921241800D0391A /* Preview Assets.xcassets */; };
+		77902B4E2921241E00D0391A /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77902B4D2921241E00D0391A /* Actions.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		77634A7A2921791700A1898B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77902B332921241700D0391A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77902B3A2921241800D0391A;
+			remoteInfo = FunGit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7761015F2922904D00F013F2 /* LogFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFileView.swift; sourceTree = "<group>"; };
+		77634A6E29213C5C00A1898B /* WorkSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkSpace.swift; sourceTree = "<group>"; };
+		77634A7029213CAC00A1898B /* WorkSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkSpaceView.swift; sourceTree = "<group>"; };
+		77634A762921791700A1898B /* FunGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77634A782921791700A1898B /* FunGitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunGitTests.swift; sourceTree = "<group>"; };
 		77902B3B2921241800D0391A /* FunGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77902B3E2921241800D0391A /* FunGitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunGitApp.swift; sourceTree = "<group>"; };
 		77902B402921241800D0391A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		77902B422921241800D0391A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77902B452921241800D0391A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77902B472921241800D0391A /* FunGit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FunGit.entitlements; sourceTree = "<group>"; };
+		77902B4D2921241E00D0391A /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		77634A732921791700A1898B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77902B382921241800D0391A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,10 +61,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77634A772921791700A1898B /* FunGitTests */ = {
+			isa = PBXGroup;
+			children = (
+				77634A782921791700A1898B /* FunGitTests.swift */,
+			);
+			path = FunGitTests;
+			sourceTree = "<group>";
+		};
 		77902B322921241700D0391A = {
 			isa = PBXGroup;
 			children = (
 				77902B3D2921241800D0391A /* FunGit */,
+				77634A772921791700A1898B /* FunGitTests */,
 				77902B3C2921241800D0391A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				77902B3B2921241800D0391A /* FunGit.app */,
+				77634A762921791700A1898B /* FunGitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +90,12 @@
 		77902B3D2921241800D0391A /* FunGit */ = {
 			isa = PBXGroup;
 			children = (
+				7761015F2922904D00F013F2 /* LogFileView.swift */,
 				77902B3E2921241800D0391A /* FunGitApp.swift */,
 				77902B402921241800D0391A /* ContentView.swift */,
+				77634A7029213CAC00A1898B /* WorkSpaceView.swift */,
+				77634A6E29213C5C00A1898B /* WorkSpace.swift */,
+				77902B4D2921241E00D0391A /* Actions.swift */,
 				77902B422921241800D0391A /* Assets.xcassets */,
 				77902B472921241800D0391A /* FunGit.entitlements */,
 				77902B442921241800D0391A /* Preview Content */,
@@ -72,6 +114,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		77634A752921791700A1898B /* FunGitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77634A7C2921791700A1898B /* Build configuration list for PBXNativeTarget "FunGitTests" */;
+			buildPhases = (
+				77634A722921791700A1898B /* Sources */,
+				77634A732921791700A1898B /* Frameworks */,
+				77634A742921791700A1898B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77634A7B2921791700A1898B /* PBXTargetDependency */,
+			);
+			name = FunGitTests;
+			productName = FunGitTests;
+			productReference = 77634A762921791700A1898B /* FunGitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		77902B3A2921241800D0391A /* FunGit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77902B4A2921241800D0391A /* Build configuration list for PBXNativeTarget "FunGit" */;
@@ -99,6 +159,10 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					77634A752921791700A1898B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 77902B3A2921241800D0391A;
+					};
 					77902B3A2921241800D0391A = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -118,11 +182,19 @@
 			projectRoot = "";
 			targets = (
 				77902B3A2921241800D0391A /* FunGit */,
+				77634A752921791700A1898B /* FunGitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		77634A742921791700A1898B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77902B392921241800D0391A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,18 +207,82 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		77634A722921791700A1898B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77634A792921791700A1898B /* FunGitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77902B372921241800D0391A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				77902B412921241800D0391A /* ContentView.swift in Sources */,
+				77634A6F29213C5C00A1898B /* WorkSpace.swift in Sources */,
+				77634A7129213CAC00A1898B /* WorkSpaceView.swift in Sources */,
+				77902B4E2921241E00D0391A /* Actions.swift in Sources */,
 				77902B3F2921241800D0391A /* FunGitApp.swift in Sources */,
+				776101602922904D00F013F2 /* LogFileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		77634A7B2921791700A1898B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77902B3A2921241800D0391A /* FunGit */;
+			targetProxy = 77634A7A2921791700A1898B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		77634A7D2921791700A1898B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4TK6FX4PU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makabaka.FunGitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunGit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FunGit";
+			};
+			name = Debug;
+		};
+		77634A7E2921791700A1898B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4TK6FX4PU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makabaka.FunGitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunGit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FunGit";
+			};
+			name = Release;
+		};
 		77902B482921241800D0391A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -317,6 +453,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		77634A7C2921791700A1898B /* Build configuration list for PBXNativeTarget "FunGitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77634A7D2921791700A1898B /* Debug */,
+				77634A7E2921791700A1898B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		77902B362921241700D0391A /* Build configuration list for PBXProject "FunGit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
