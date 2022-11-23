@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "383F935C-6424-48B8-B9E6-A1B2D2915053",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:FunGit.xcodeproj",
+        "identifier" : "77C1D6B329229CDE009A8AFF",
+        "name" : "GitLogInterpreterTests"
+      }
+    }
+  ],
+  "version" : 1
+}

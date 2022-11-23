@@ -16,13 +16,14 @@
 		77902B432921241800D0391A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77902B422921241800D0391A /* Assets.xcassets */; };
 		77902B462921241800D0391A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77902B452921241800D0391A /* Preview Assets.xcassets */; };
 		77902B4E2921241E00D0391A /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77902B4D2921241E00D0391A /* Actions.swift */; };
+		7796FE12292AC1A400659453 /* LogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7796FE11292AC1A400659453 /* LogEntry.swift */; };
 		77C1D6AF29229CDE009A8AFF /* GitLogInterpreter.docc in Sources */ = {isa = PBXBuildFile; fileRef = 77C1D6AE29229CDE009A8AFF /* GitLogInterpreter.docc */; };
 		77C1D6B529229CDE009A8AFF /* GitLogInterpreter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1D6AB29229CDE009A8AFF /* GitLogInterpreter.framework */; };
 		77C1D6BC29229CDE009A8AFF /* GitLogInterpreterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1D6BB29229CDE009A8AFF /* GitLogInterpreterTests.swift */; };
 		77C1D6BD29229CDE009A8AFF /* GitLogInterpreter.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C1D6AD29229CDE009A8AFF /* GitLogInterpreter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77C1D6C029229CDE009A8AFF /* GitLogInterpreter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1D6AB29229CDE009A8AFF /* GitLogInterpreter.framework */; };
 		77C1D6C129229CDE009A8AFF /* GitLogInterpreter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77C1D6AB29229CDE009A8AFF /* GitLogInterpreter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		77C1D6CA29229CEF009A8AFF /* LogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1D6C929229CEF009A8AFF /* LogEntry.swift */; };
+		77C1D6CA29229CEF009A8AFF /* LogInterpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C1D6C929229CEF009A8AFF /* LogInterpreter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,12 +84,14 @@
 		77902B452921241800D0391A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77902B472921241800D0391A /* FunGit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FunGit.entitlements; sourceTree = "<group>"; };
 		77902B4D2921241E00D0391A /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		7796FE10292ABB6B00659453 /* GitLogInterpreter.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = GitLogInterpreter.xctestplan; sourceTree = "<group>"; };
+		7796FE11292AC1A400659453 /* LogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntry.swift; sourceTree = "<group>"; };
 		77C1D6AB29229CDE009A8AFF /* GitLogInterpreter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GitLogInterpreter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C1D6AD29229CDE009A8AFF /* GitLogInterpreter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitLogInterpreter.h; sourceTree = "<group>"; };
 		77C1D6AE29229CDE009A8AFF /* GitLogInterpreter.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GitLogInterpreter.docc; sourceTree = "<group>"; };
 		77C1D6B429229CDE009A8AFF /* GitLogInterpreterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitLogInterpreterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C1D6BB29229CDE009A8AFF /* GitLogInterpreterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitLogInterpreterTests.swift; sourceTree = "<group>"; };
-		77C1D6C929229CEF009A8AFF /* LogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntry.swift; sourceTree = "<group>"; };
+		77C1D6C929229CEF009A8AFF /* LogInterpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInterpreter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				77C1D6AD29229CDE009A8AFF /* GitLogInterpreter.h */,
-				77C1D6C929229CEF009A8AFF /* LogEntry.swift */,
+				77C1D6C929229CEF009A8AFF /* LogInterpreter.swift */,
+				7796FE11292AC1A400659453 /* LogEntry.swift */,
 				77C1D6AE29229CDE009A8AFF /* GitLogInterpreter.docc */,
 			);
 			path = GitLogInterpreter;
@@ -193,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				77C1D6BB29229CDE009A8AFF /* GitLogInterpreterTests.swift */,
+				7796FE10292ABB6B00659453 /* GitLogInterpreter.xctestplan */,
 			);
 			path = GitLogInterpreterTests;
 			sourceTree = "<group>";
@@ -392,7 +397,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77C1D6AF29229CDE009A8AFF /* GitLogInterpreter.docc in Sources */,
-				77C1D6CA29229CEF009A8AFF /* LogEntry.swift in Sources */,
+				77C1D6CA29229CEF009A8AFF /* LogInterpreter.swift in Sources */,
+				7796FE12292AC1A400659453 /* LogEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

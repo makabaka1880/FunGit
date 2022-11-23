@@ -7,12 +7,35 @@
 		<key>FunGit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>GitLogInterpreter.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>77634A752921791700A1898B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77902B3A2921241800D0391A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77C1D6AA29229CDE009A8AFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77C1D6B329229CDE009A8AFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
